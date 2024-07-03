@@ -31,13 +31,13 @@ const Home = () => {
         </div>
 
         {/* ------------ ICONS LIVE CHAT --------------- */}
-        <section className="shadow-2xl py-10">
+        {/* <section className="shadow-2xl py-10">
           <p className="text-2xl font-bold text-center mb-8 text-blue-900">
             Instant Support on live chat
           </p>
 
           <div className="flex justify-center gap-8">
-            {/* Contact */}
+           
             <div className="text-center">
               <div className="bg-blue-900 rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
                 <HeadsetMicIcon sx={{ fontSize: "3rem" }} />
@@ -45,7 +45,7 @@ const Home = () => {
               <p className="text-lg font-semibold text-blue-900">Contact</p>
             </div>
 
-            {/* Chat */}
+          
             <div className="text-center">
               <div className="bg-blue-900 rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
                 <ChatIcon sx={{ fontSize: "3rem" }} />
@@ -53,7 +53,7 @@ const Home = () => {
               <p className="text-lg font-semibold text-blue-900">Chat</p>
             </div>
 
-            {/* Setup & Install */}
+           
             <div className="text-center">
               <div className="bg-blue-900 rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
                 <SettingsSuggestIcon sx={{ fontSize: "3rem" }} />
@@ -63,7 +63,7 @@ const Home = () => {
               </p>
             </div>
 
-            {/* Diagnose & Fix */}
+          
             <div className="text-center">
               <div className="bg-blue-900 rounded-full w-24 h-24 flex items-center justify-center text-white text-4xl mx-auto mb-4">
                 <BuildIcon sx={{ fontSize: "3rem" }} />
@@ -73,7 +73,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
 
       <ContentSetup />

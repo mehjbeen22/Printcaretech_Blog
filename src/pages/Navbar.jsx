@@ -11,7 +11,7 @@ const Navbar = () => {
               PrinterCareTech
             </h1>
           </Link>
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <Link to="/" className="hover:text-gray-300 cursor-pointer">
               Explore
             </Link>
@@ -21,11 +21,14 @@ const Navbar = () => {
             <Link to="/" className="hover:text-gray-300 cursor-pointer">
               Support
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 
       <ul className="flex justify-center space-x-4 py-2 bg-blue-900 text-white">
+        <Link to="/" className="hover:text-gray-300 cursor-pointer">
+          Home
+        </Link>
         <Link
           to="/printeroffline"
           className="hover:text-gray-300 cursor-pointer"

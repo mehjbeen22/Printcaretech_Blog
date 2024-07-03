@@ -3,10 +3,8 @@ import React from "react";
 const Disclaimer = () => {
   return (
     <div className="bg-blue-900 text-white py-8 px-4 text-center">
-      <h2 className="text-2xl font-bold mb-4">
-        Disclaimer for PrinterCareTech
-      </h2>
-      <div className="text-lg">
+      <h2 className="text-xl font-bold mb-4">Disclaimer for PrinterCareTech</h2>
+      <div className="text-sm">
         <p className="mb-4">
           PrinterCareTech operates independently as a third-party entity,
           without affiliation to any printer brand, and does not participate in
